@@ -504,7 +504,7 @@ Panel {
           fontFamily: root.fontFamily
           iconOpacity: service.connected ? 1 : 0.55
           iconComponent: Component {
-            ThemeIcon {
+            MoleIcon {
               iconSize: Style.font.display
               state: root.stateIcon
               color: root.stateColor

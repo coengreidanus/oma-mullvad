@@ -83,7 +83,7 @@ BarWidget {
     tooltipText: root.barTooltip
     iconComponent: Component {
       Item {
-        ThemeIcon {
+        MoleIcon {
           anchors.centerIn: parent
           iconSize: Style.bar.iconCanvas
           state: root.stateIcon
